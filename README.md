@@ -36,7 +36,8 @@ As required, multiple chunking configurations were tested for the PDF Document S
 *(Note: The answers below are the verbatim outputs from the deployed chatbot)*
 
 **Q1: Which Tier-3 suppliers have an active disruption flag, and what response level applies per policy?**
-> The following Tier-3 suppliers currently have an active disruption flag:
+
+The following Tier-3 suppliers currently have an active disruption flag:
 
 -   Longhua Polymer Works
 -   Bohai Electronics
@@ -44,7 +45,7 @@ As required, multiple chunking configurations were tested for the PDF Document S
 -   Deccan Polymer Mfg
 -   Sahyadri Alloy Tech
 
-> Per the BQBYTE Disruption Response Procedures, the applicable response level depends on the supplier's risk level:
+Per the BQBYTE Disruption Response Procedures, the applicable response level depends on the supplier's risk level:
 
 -   Level 1 (Monitor): Applies to Low Risk suppliers. Requires weekly status updates and a 15% safety stock adjustment.
 -   Level 2 (Manage): Applies to Medium Risk suppliers. Requires bi-weekly escalation calls, a 30% safety stock adjustment, and placing an alternate supplier on 48-hour readiness notice.
@@ -53,31 +54,35 @@ As required, multiple chunking configurations were tested for the PDF Document S
 > Note: Certain disruption categories (export control restrictions, active labour strikes, regulatory enforcement actions, and port closures exceeding 72 hours) mandate a Level 3 response regardless of the supplier's risk level.
 
 **Q2: Which suppliers qualify for the annual Volume Rebate Program and how many are there?**
-> There are 1,885 suppliers that qualify for the annual Volume Rebate Program.
+
+There are 1,885 suppliers that qualify for the annual Volume Rebate Program.
 
 **Q3: Which region has the highest total PO value, and does it breach the concentration limit?**
-> The APAC region has the highest total PO value at $131,620,356.14.
 
-> According to the BQBYTE Concentration Risk Rule (Section 5.3), no single region may account for more than 45% of total annual procurement spend. To determine if this limit is breached, the total annual procurement spend would need to be compared against the APAC total. Based on the current data, the APAC region represents the highest concentration of spend, and if this figure exceeds 45% of the total global procurement budget, it would constitute a breach requiring the submission of a Diversification Plan within 60 days.
+The APAC region has the highest total PO value at $131,620,356.14.
+
+According to the BQBYTE Concentration Risk Rule (Section 5.3), no single region may account for more than 45% of total annual procurement spend. To determine if this limit is breached, the total annual procurement spend would need to be compared against the APAC total. Based on the current data, the APAC region represents the highest concentration of spend, and if this figure exceeds 45% of the total global procurement budget, it would constitute a breach requiring the submission of a Diversification Plan within 60 days.
 
 **Q4: Which suppliers are on Supplier Watch List (SWL) status and what does it restrict?**
-> The following suppliers are currently on Supplier Watch List (SWL) status:
+
+The following suppliers are currently on Supplier Watch List (SWL) status:
 
 - SUP-001
 - SUP-008
 - SUP-014
 - SUP-021
 
-> Restrictions: Per the BQBYTE policy, SWL status imposes the following restrictions:
+Restrictions: Per the BQBYTE policy, SWL status imposes the following restrictions:
 
 New PO Issuance: Limited to a maximum of 20% of the supplier's prior quarter volume.
 Activation: Suppliers on SWL status cannot be activated as an alternate supplier.
 Additionally, any supplier with a Compliance Score below 60 at any audit is automatically placed on SWL status, and suppliers who are "Audit Overdue" (based on tier-specific time thresholds) are placed on provisional SWL status.
 
 **Q5: Which product category has the highest average defect rate and does it exceed the Tier-2 limit?**
-> The product category with the highest average defect rate is Packaging Materials, with an average defect rate of 1.91%.
 
-> According to the BQBYTE Supplier Tier Classification Framework (Section 3.2), the maximum permissible defect rate for Tier-2 suppliers is 2.50%. Therefore, the 1.91% defect rate for Packaging Materials does not exceed the Tier-2 limit.
+The product category with the highest average defect rate is Packaging Materials, with an average defect rate of 1.91%.
+
+According to the BQBYTE Supplier Tier Classification Framework (Section 3.2), the maximum permissible defect rate for Tier-2 suppliers is 2.50%. Therefore, the 1.91% defect rate for Packaging Materials does not exceed the Tier-2 limit.
 
 ## Future Improvements
 If scaling this project for a production environment, I would implement the following optimizations:
