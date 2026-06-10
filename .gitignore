@@ -1,0 +1,7 @@
+node_modules
+.env
+*.env
+.env.*
+*.json
+!scm_assistant.json
+.DS_Store
